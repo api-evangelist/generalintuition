@@ -1,9 +1,27 @@
 aid: generalintuition
-name: Generalintuition
-description: Generalintuition is a company surfaced as a portfolio company of khosla-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+name: General Intuition
+description: >-
+  General Intuition is a frontier AI lab, founded in 2025 and spun out of Medal, building
+  spatial-temporal world and action models that learn to perceive, anticipate, and act in space
+  and time. Rather than training primarily on the archive of human language, its systems learn from
+  gameplay data, teaching machines to play, dream within compressed simulacra of reality, and
+  improvise within the unfolding dynamics of the world. The company is developing a commercial API
+  for gaming, simulation, and robotics partners, with broader access planned through 2026. General
+  Intuition is backed by Khosla Ventures, which led both its $133.7M seed round (October 2025) and
+  its $320M Series A at a $2.3B valuation (2026).
 url: https://raw.githubusercontent.com/api-evangelist/generalintuition/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/68b73cd966b9c097c35f357b/68d31bc35b8d5b398f8aa81a_256x256_webclip_general_intuition.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,9 +30,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Artificial Intelligence
+- World Models
+- AI Agents
+- Robotics
+- Gaming
+- Machine Learning
+- Simulation
+- Spatial AI
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +48,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/generalintuition-domain-security.yml
+- type: LLMsTxt
+  url: llms/generalintuition-llms.txt
 - type: Website
   url: https://www.generalintuition.com/
+- type: DeveloperPortal
+  url: https://partners.generalintuition.com/
+- type: GitHubOrganization
+  url: https://github.com/generalintuition
+- type: PrivacyPolicy
+  url: https://www.generalintuition.com/privacy
+- type: TermsOfService
+  url: https://www.generalintuition.com/terms
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

@@ -10,6 +10,17 @@ description: >-
   Intuition is backed by Khosla Ventures, which led both its $133.7M seed round (October 2025) and
   its $320M Series A at a $2.3B valuation (2026).
 url: https://raw.githubusercontent.com/api-evangelist/generalintuition/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
